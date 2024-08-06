@@ -28,7 +28,7 @@ export default function App() {
       element: <Portfolio />,
     },
   ], {
-    basename: '/first-react-pro',
+    basename: '/first-react-project',
   });
 
   return (

@@ -1,8 +1,8 @@
 {
-  "name": "first-react-pro",
+  "name": "first-react-project",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://ahmed0ty.github.io/first-react-pro/",
+  "homepage": "https://ahmed0ty.github.io/first-react-project/",
   "type": "module",
   "scripts": {
   "predeploy": "npm run build",
