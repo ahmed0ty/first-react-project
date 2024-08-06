@@ -27,7 +27,9 @@ export default function App() {
       path: "/Portfolio",
       element: <Portfolio />,
     },
-  ]);
+  ], {
+    basename: '/first-react-pro',
+  });
 
   return (
     <>
