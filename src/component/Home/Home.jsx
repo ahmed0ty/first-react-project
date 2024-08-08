@@ -1,5 +1,4 @@
-import avataaars from '/src/assets/images/avataaars.svg';
-
+import avataaars from '../assets/avataaars.svg';
 
 export default function Home() {
     return (
