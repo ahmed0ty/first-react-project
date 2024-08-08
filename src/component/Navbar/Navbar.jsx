@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='py-5 NAV flex flex-wrap justify-between items-center'>
        <h1 className='text-4xl font-bold ps-9 text-white'>
           <NavLink
-            to="/Home"
+            to="Home"
           >
            Start Framework
           </NavLink>
@@ -13,7 +13,7 @@ const Navbar = () => {
       <ul className="flex flex-wrap md:flex-nowrap text-2xl text-white space-y-4 md:space-y-0 md:space-x-4 pe-4 md:pe-36">
         <li className='p-5 font-bold text-xl'>
           <NavLink
-            to="/About"
+            to="About"
             className={({ isActive }) => isActive ? 'bg-custom-green px-4 py-2 rounded text-white' : 'text-white'}
           >
             ABOUT
@@ -21,7 +21,7 @@ const Navbar = () => {
         </li>
         <li className='p-5 font-bold text-xl'>
           <NavLink
-            to="/Portfolio"
+            to="Portfolio"
             className={({ isActive }) => isActive ? 'bg-custom-green px-4 py-2 rounded text-white' : 'text-white'}
           >
             PORTFOLIO
@@ -29,7 +29,7 @@ const Navbar = () => {
         </li>
         <li className='p-5 font-bold text-xl'>
           <NavLink
-            to="/Contact"
+            to="Contact"
             className={({ isActive }) => isActive ? 'bg-custom-green px-4 py-2 rounded text-white' : 'text-white'}
           >
             CONTACT

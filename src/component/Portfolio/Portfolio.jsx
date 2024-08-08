@@ -1,8 +1,9 @@
 import { useState } from "react";
 
-import poert1 from '../assets/poert1.png';
-import port2 from '../assets/port2.png';
-import port3 from '../assets/port3.png';
+import poert1 from '../../assets/poert1.png';
+import port2 from '../../assets/port2.png';
+import port3 from '../../assets/port3.png';
+
 
 export default function Parent() {
     const [selectedImage, setSelectedImage] = useState(null);

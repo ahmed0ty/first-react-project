@@ -7,11 +7,11 @@ import Home from './component/Home/Home';
 import Layout from './component/Layout/Layout';
 
 export default function App() {
-  const myRouter = createBrowserRouter({
-    basename: '/first-react-project',
-    routes: [
+  const myRouter = createBrowserRouter(
+   
+     [
       {
-        path: "/",
+        path: "/first-react-project",
         element: <Layout />,
         children: [
           {
@@ -37,7 +37,7 @@ export default function App() {
         ],
       },
     ],
-  });
+  );
 
   return (
     <>
