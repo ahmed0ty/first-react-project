@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import poert1 from '../assets/images/poert1.png';
-import port2 from '../assets/images/port2.png';
-import port3 from '../assets/images/port3.png';
+import poert1 from '/src/assets/images/poert1.png';
+import port2 from '/src/assets/images/port2.png';
+import port3 from '/src/assets/images/port3.png';
 
 export default function Parent() {
     const [selectedImage, setSelectedImage] = useState(null);
@@ -15,7 +15,7 @@ export default function Parent() {
         setSelectedImage(null);
     };
 
-    // قائمة الصور المستوردة
+    
     const images = [poert1, port2, port3, poert1, port2, port3];
 
     return (
