@@ -1,7 +1,4 @@
 import { useState } from "react";
-import Navbar from "../Navbar/Navbar";
-import Content from "../content/content";
-
 export default function Parent() {
     const [selectedImage, setSelectedImage] = useState(null);
 
@@ -15,7 +12,7 @@ export default function Parent() {
 
     return (
         <>
-            <Navbar />
+            
 
             <div className={`p-6 mx-auto max-w-7xl ${selectedImage ? 'bg-blue-500' : ''}`}>
                 <h1 className="text-5xl port-header font-bold flex justify-center items-center p-5 text-center">PORTFOLIO COMPONENT</h1>
@@ -43,7 +40,7 @@ export default function Parent() {
                 </div>
             )}
 
-            <Content />
+          
         </>
     );
 }

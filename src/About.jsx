@@ -1,13 +1,10 @@
-import Content from "./component/content/content";
-import Navbar from "./component/Navbar/Navbar";
-
 
 export default function About() {
 
 
     return (
         <>
-            <Navbar />
+            
             <div className=" h-screen  pt-60">
                 <h1 className="text-center text-5xl font-bold text-white">ABOUT COPMONENT</h1>
                 <div className="flex items-center justify-center p-6 "><i className="fas fa-minus text-white"></i><i class="fa-solid fa-star text-white "></i><i className="fas fa-minus text-white"></i></div>
@@ -17,7 +14,7 @@ export default function About() {
                 </div>
             </div>
 
-            <Content/>
+            
         </>
     )
 

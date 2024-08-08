@@ -1,10 +1,9 @@
-import Navbar from "../Navbar/Navbar";
-import Content from "../content/content";
+
 export default function Contact() {
   return <>
     <div className="pb-10">
 
-      <Navbar />
+     
       <div className="pt-10 cont">
         <h1 className="text-center text-5xl font-bold">CONTACT SECTION</h1>
         <div className="flex items-center justify-center p-3 "><i className="fas fa-minus "></i><i class="fa-solid fa-star  "></i><i className="fas fa-minus"></i></div>
@@ -48,6 +47,6 @@ export default function Contact() {
 
 
     </div>
-    <Content/>
+
   </>
 }

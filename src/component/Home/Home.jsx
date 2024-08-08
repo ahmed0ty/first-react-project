@@ -1,12 +1,10 @@
-import Content from "../content/content";
-import Navbar from "../Navbar/Navbar";
 
 export default function Home() {
 
 
     return (
         <>
-            <Navbar />
+            
             <div className="h-screen flex flex-col items-center justify-center pt-10">
                 <img src="./src/images/avataaars.svg" alt="" className="w-72" />
                 <h1 className="text-center text-5xl font-bold text-white mt-4">START FRAMEWORK</h1>
@@ -18,7 +16,7 @@ export default function Home() {
                 <p className="text-center text-white mt-4">Graphic Artist - Web Designer - Illustrator</p>
             </div>
 
-            <Content />
+            
         </>
     )
 
