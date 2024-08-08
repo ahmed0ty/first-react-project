@@ -7,34 +7,37 @@ import Home from './component/Home/Home';
 import Layout from './component/Layout/Layout';
 
 export default function App() {
-  const myRouter = createBrowserRouter([
-    {
-      path: "/",
-      element: <Layout />,
-      children: [
-        {
-          index: true,
-          element: <Home />,
-        },
-        {
-          path: "/Home",
-          element: <Home />,
-        },
-        {
-          path: "/About",
-          element: <About />,
-        },
-        {
-          path: "/Contact",
-          element: <Contact />,
-        },
-        {
-          path: "/Portfolio",
-          element: <Portfolio />,
-        },
-      ],
-    },
-  ]);
+  const myRouter = createBrowserRouter({
+    basename: '/first-react-project',
+    routes: [
+      {
+        path: "/",
+        element: <Layout />,
+        children: [
+          {
+            index: true,
+            element: <Home />,
+          },
+          {
+            path: "Home",
+            element: <Home />,
+          },
+          {
+            path: "About",
+            element: <About />,
+          },
+          {
+            path: "Contact",
+            element: <Contact />,
+          },
+          {
+            path: "Portfolio",
+            element: <Portfolio />,
+          },
+        ],
+      },
+    ],
+  });
 
   return (
     <>

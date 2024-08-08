@@ -1,12 +1,10 @@
+import avataaars from '../assets/images/avataaars.svg';
 
 export default function Home() {
-
-
     return (
         <>
-            
             <div className="h-screen flex flex-col items-center justify-center pt-10">
-                <img src="./src/images/avataaars.svg" alt="" className="w-72" />
+                <img src={avataaars} alt="Avatar" className="w-72" />
                 <h1 className="text-center text-5xl font-bold text-white mt-4">START FRAMEWORK</h1>
                 <div className="flex items-center justify-center p-3 mt-4">
                     <i className="fas fa-minus text-white"></i>
@@ -15,12 +13,6 @@ export default function Home() {
                 </div>
                 <p className="text-center text-white mt-4">Graphic Artist - Web Designer - Illustrator</p>
             </div>
-
-            
         </>
-    )
-
-
-
-
+    );
 }
